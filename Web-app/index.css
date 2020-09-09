@@ -1,0 +1,324 @@
+/* html,body {
+    width:400px;  
+    
+} */
+
+.back{
+    background-color:grey;
+    height:500px;
+    text-align: center;
+}
+
+.navback{
+    background-color: white;
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.back h2 {
+    padding-top: 8rem;
+}
+
+.buttonclass{
+    display: flex;
+    justify-content: center;
+}
+
+.mail{
+    justify-content: center;
+    display: flex;
+}
+
+.letters {
+    color: white;
+    /* align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin-bottom: 10px;
+    font-style: oblique;
+    
+
+}
+.navbar {
+    /* width: 5000px; */
+    height: 50px;
+    display: flex;
+    background: white;
+    
+}
+
+.button{
+    background-color: darkgoldenrod;
+    color:white;
+    padding: 10px;
+    flex-direction: row;
+
+}
+.butt{
+    justify-content: space-between;
+}
+
+.side-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav-ele{
+    justify-content: right;
+    margin-left: 1rem;
+}
+
+.nav-ele1{
+    justify-content: left;
+    margin-left: 1rem;
+   
+}
+
+.secondback{
+    background-image: url("https://blog.rescuetime.com/wp-content/uploads/2017/10/Workplace-Productivity-Main-1000x486.jpg");
+    background-size: cover;
+    justify-content: left;
+    padding-top: 10px;
+    height:500px;
+    
+}
+
+
+.lett{
+    color:black;
+    padding-top: 8rem;
+    
+}
+
+.lett2{
+    color:black;
+    margin-bottom: 10px;
+}
+
+.downloadbutton{
+
+background-color:white;
+}
+
+.service{
+    text-align: center;
+}
+
+.main-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.detail-class-one ,
+.detail-class-two{
+    width: 20%;
+}
+
+.detail-class-svg{
+    width: 30%;
+    margin-top: 12px;
+}
+
+.detail-class-svg img{
+    margin: 22px;
+}
+.account-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blog-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.inner-avatar-details{
+    width: 30%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.inner-highlight-avatar-details{
+    width: 30%;
+    text-align: center;
+
+}
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagin-point,
+.pagin-point-highlight{
+    margin: 2px;
+    padding: 8px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.left_blog{
+   
+    width:20%;
+}
+
+.blog_date{
+    display: flex;
+    background-color:gold;
+    
+}
+
+.blog_meet{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+}
+.pagin-point-highlight{
+    background-color: lightyellow;
+}
+/* .left-top{
+    justify-content: left;
+    display: flex;
+    width: 250px;
+    height:25px;
+} */
+
+.thirdback{
+    background-color:pink;
+    /* height:500px; */
+}
+
+/* .left-center{
+    justify-content: left;
+    display: flex;
+    width: 250px;
+    height:25px;
+    flex-direction: row;
+
+}
+
+.left-bottom{
+    justify-content: flex-end;
+    display: flex;
+    width: 250px;
+    height:25px;
+}
+
+.right-top{
+    justify-content: right;
+    display: flex;
+    width: 250px;
+    height:25px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+.right-center{
+    justify-content: right;
+    display: flex;
+    width: 250px;
+    height:25px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row
+}
+
+.right-bottom{
+    justify-content: right;
+    display: flex;
+    width: 250px;
+    height:25px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row
+} */
+
+.fourthback{
+    background-image: url("https://images.pexels.com/photos/358238/pexels-photo-358238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height:500px;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.fifthback{
+    background-color: lightsalmon;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.eventsleft{
+    color:black;
+    padding-top: 10px;
+    justify-content: left;
+}
+
+.sixthback{
+    background-color:lightskyblue;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.upcoming_events{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event_details{
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: table;
+}
+
+.image_event_details{
+    width:20%;
+    display:grid;
+}
+
+.place_event_details{
+    width:50%;
+    display: block;
+    flex-wrap: wrap; 
+    padding-bottom: 5rem;
+}
+
+.one_event{
+    display: flex;
+    
+
+}
+
+.seventhback{
+    background-color:black;
+    height:300px;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+
+}
+.seven{
+    text-align: center;
+}
+
+.input{
+    height: 46px;
+    text-align: center;
+}
