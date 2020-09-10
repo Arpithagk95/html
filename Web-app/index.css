@@ -80,7 +80,7 @@
 }
 
 .secondback{
-    background-image: url("https://blog.rescuetime.com/wp-content/uploads/2017/10/Workplace-Productivity-Main-1000x486.jpg");
+    background-image: url("./images/Workplace-Productivity.jpg");
     background-size: cover;
     justify-content: left;
     padding-top: 10px;
@@ -134,6 +134,11 @@ background-color:white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
 }
 
 .blog-details{
@@ -249,7 +254,7 @@ background-color:white;
 } */
 
 .fourthback{
-    background-image: url("https://images.pexels.com/photos/358238/pexels-photo-358238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("./images/pexels-photo.jpeg");
     height:500px;
     text-align: center;
     padding-top: 4rem;
@@ -321,4 +326,34 @@ background-color:white;
 .input{
     height: 46px;
     text-align: center;
+}
+
+@media screen and (max-width:480px){
+    .main-details{
+        display: block;
+    }
+
+    .detail-class-one, .detail-class-two,.detail-class-svg{
+        width:100%;
+    }
+
+    .image_event_details img{
+        width: 122px;
+        /* height: 50px; */
+    }
+
+    .place_event_details{
+        width: 60%;
+    }
+
+    .blog-details {
+        display: block;
+        width: 52%;
+        margin-left: 10rem;
+    }
+
+    .left_blog {
+        width: 100%;
+        padding-top: 2rem;
+    }
 }
